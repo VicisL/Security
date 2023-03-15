@@ -1,6 +1,14 @@
 import requests
 import logging as log
 def get_cisa_exploited(verify_ssl=True):
+    """Download the CISA Exploitable Vulnerabilities Catalog
+
+    Args:
+        verify_ssl (bool, optional): verify SSL certificate of the catalog. Defaults to True.
+
+    Returns:
+        obj: JSON containing the catalog items w/ the following keys: ['title','catalogVersion','dateReleased','count','vulnerabilities']
+    """
     url = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
     headers = {
         'Accept' : 'application/json',
