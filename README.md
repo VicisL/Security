@@ -3,6 +3,6 @@ Just a collection of random security-related scripts I've developed for personal
 
 I offer no support!
 
-| Script Name   | Description                                            |
-| ------------- | ------------------------------------------------------ |
-| get-cisa-vuln | Download the CISA Exploitable Vulnerabilities catalog. |
+| Script Name | Description                                            |
+| ----------- | ------------------------------------------------------ |
+| get-cisa    | Download the CISA Exploitable Vulnerabilities catalog. |
